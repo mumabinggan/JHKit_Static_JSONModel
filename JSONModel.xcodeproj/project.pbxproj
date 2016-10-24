@@ -328,6 +328,7 @@
 				INFOPLIST_FILE = JSONModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = JSONModel/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonmodel.JSONModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,6 +346,7 @@
 				INFOPLIST_FILE = JSONModel/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = JSONModel/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonmodel.JSONModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
